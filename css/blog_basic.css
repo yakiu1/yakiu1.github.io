@@ -291,6 +291,7 @@ dl dt {
         border-left: #4a4a4a 0.4em solid; }
 
         blockquote p {
+          background-color: rgb(186, 186, 186);
           margin: 0.8em 0; }
 
           blockquote small {
@@ -317,8 +318,8 @@ dl dt {
                       font-size: 0.85em;
                       white-space: pre-wrap;
                       border: 1px solid #E3EDF3;
-                      background: #f7f7f9;
-                      color: #d14;
+                      background: #555;
+                      color: rgb(231, 231, 231);
                       border-radius: 2px; }
 /**
                       pre {
