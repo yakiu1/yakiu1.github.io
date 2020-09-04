@@ -318,8 +318,8 @@ dl dt {
                       font-size: 0.85em;
                       white-space: pre-wrap;
                       border: 1px solid #E3EDF3;
-                      background: #555;
-                      color: rgb(231, 231, 231);
+                      background:#d6d6d6;
+                      color: #4a4a4a;
                       border-radius: 2px; }
 /**
                       pre {
