@@ -8,7 +8,116 @@
 <p>勇氣使者的命中判定會受信心值的影響<br>在信心值為100時任何攻擊必定命中並且爆擊</p>
 <p>每場戰鬥開始時初始信心值為：5x等級<br>每當攻擊命中敵人時信心值增加該次命中骰的數值</p>
 <p>每次沒命中的攻擊將會使信心值下降10點(最低為1)</p>
-<p>信心數值對命中影響如下<br>|  信心值   | 命中調整  |<br>|  —-  | —-  |<br>|小於20 | -5|<br>|21<del>25 |-4 |<br>|26</del>30 | -3|<br>|31<del>35 | -2|<br>|36</del>40 | -1|<br>|41<del>45 | 0|<br>|46</del>50 | 1|<br>|51<del>55 | 2|<br>|56</del>60 | 3|<br>|61<del>65 | 4|<br>|66</del>70 | 5|<br>|71<del>75 | 6|<br>|76</del>80 | 7|<br>|81<del>85 | 8|<br>|86</del>90 | 9|<br>|91~99 | 10|<br>|100| 必定命中必定爆擊|</p>
+<p>信心數值對命中影響如下</p>
+<style>
+.table-bordered{
+    border: 1px solid #ddd;
+    border-top-color: rgb(221, 221, 221);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(221, 221, 221);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>信心值</th>
+<th>命中調整</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>小於20</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>21~25</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>26~30</td>
+<td>-3</td>
+</tr>
+<tr>
+<td>31~35</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>36~40</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>41~45</td>
+<td>0</td>
+</tr>
+<tr>
+<td>46~50</td>
+<td>1</td>
+</tr>
+<tr>
+<td>51~55</td>
+<td>2</td>
+</tr>
+<tr>
+<td>56~60</td>
+<td>3</td>
+</tr>
+<tr>
+<td>61~65</td>
+<td>4</td>
+</tr>
+<tr>
+<td>66~70</td>
+<td>5</td>
+</tr>
+<tr>
+<td>71~75</td>
+<td>6</td>
+</tr>
+<tr>
+<td>76~80</td>
+<td>7</td>
+</tr>
+<tr>
+<td>81~85</td>
+<td>8</td>
+</tr>
+<tr>
+<td>86~90</td>
+<td>9</td>
+</tr>
+<tr>
+<td>91~99</td>
+<td>10</td>
+</tr>
+<tr>
+<td>100</td>
+<td>必定命中必定爆擊</td>
+</tr>
+</tbody>
+</table>
+
 <p><code>Lv1 無所遲疑</code><br>當信心值降為1的當回合，可用一個附贈動作，消耗1個勇氣點<br>使信心值上升到100。並且重新本輪的動作(得到一個新回合)</p>
 <p><code>Lv1 無所畏懼</code><br>當其他冒險者玩家(非npc、非召喚物)死亡時，將會回復一點勇氣點。</p>
 <p><code>lv2 下意識反擊</code><br>當受到近戰(5尺內)致命的攻擊時(骰完傷害超過現有生命值)，可以進行一次DC15敏捷豁免，<br>豁免成功後閃並該攻擊，並可以進行一次必中的反擊，並且該次攻擊必定爆擊。</p>
